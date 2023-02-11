@@ -1,4 +1,4 @@
-# SASS-project-tutorial
+# SASS - project tutorial from Brian Design
 
 This is a static site created and inspired from a YT exercise by Brian Design.
 
