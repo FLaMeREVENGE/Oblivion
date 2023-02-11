@@ -1,0 +1,91 @@
+@import 'colors';
+@import 'media-queries';
+
+//importowane wlasciwosci do tego pliku scss
+
+%align-center{
+    display: flex;
+    // 'flex' elementy są w lini i mają taką samą odlegość od siebie
+    align-items: center; 
+    //kolumny znajduja sie w srodu
+}
+//aligin-center jest zapisany '%' aby odroznic go od pozostałych elementow i przypiac go do dyreketywy @extend
+
+.navbar{
+    background: $light;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    z-index: 10;
+    //Kiedy elementy nachodzą na siebie, kolejność osi 'z' decyduje, który element przykrywa inny. 
+    position: relative;
+    //element przesuwa przeszkadzajace mu elementy
+
+&_logo{
+    color: $dark;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 24px;
+    @extend %align-center;
+}
+//zamiast pisania ciglego 'navbar' mozemy pisac '&' wewnatrz tego elementu!!!
+
+&_bars{
+    opacity: 0;
+
+    @include tablet{
+        color: $dark;
+        opacity: 1;
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        font-size: 1rem;
+    }
+    //gdy strona pojawi sie w rozmiarze okreslonym w @include tablet lub mniejszym, ikony zmiena wyglad na bars
+}
+
+&_menu{
+    @extend %align-center;
+    list-style: none;
+    text-align: center;
+    margin-right: 24px;
+
+    @include tablet{
+        display: none;
+    }
+
+    &-links{
+        color: $dark;
+        @extend %align-center;
+        justify-content: center;
+        //miejsce kolumn
+        text-decoration: none;
+        padding: 0 1rem;
+
+        &:hover{
+            color: $lime;
+            transition: all 0.3s ease;
+            //Pierwsza czesc zmiany wygladu przycisku. button jestem linkiem dlatego musi sie znajdowac jego hover linkach
+        }
+    }
+
+#button{
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: $lime;
+    margin-left: 16px;
+    color: $light;
+
+    &:hover{
+        background: $orangeRed;
+        transition: all 0.3s ease;
+        //druga czesc zmiany wygladu przycisku
+    }
+}
+
+  }
+}

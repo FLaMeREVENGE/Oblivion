@@ -1,0 +1,17 @@
+@mixin tablet{
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile{
+    @media screen and (max-width: 280px) {
+        @content;
+    }
+}
+
+//@media określa typ docelowych mediów.
+
+//screen - przeznaczone przede wszystkim dla kolorowych ekranów komputerowych.
+
+//jezeli wypiszemy dodataką właściwość w elemencie któremu przeypisujemy @mixin to musi on posiadać równiez dyrektywe @content, a pod @include tego elementu wypisujemy tą wlasciwosc.
