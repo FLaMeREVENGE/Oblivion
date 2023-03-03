@@ -16,7 +16,7 @@ This is a static site created and inspired from a YT exercise by Brian Design.
 ## Description
 Thanks to this exercise, I quickly learned the principles of SASS design. Besides, the site is not that big and it brought me a lot of fun.
 
-Thank you Brian Design :)
+Thank you Brian Design :kissing_heart:
 
 ## Knowledge of technology
 * HTML
@@ -25,6 +25,7 @@ Thank you Brian Design :)
 * SASS
 
 ## My Portfolio
-[Behance](https://www.behance.net/karolkomor1b9a)
-[Github](https://github.com/FLaMeREVENGE) 
+[Behance](https://www.behance.net/karolkomor1b9a):computer: Karol Komorowski
+![Behance Profile](behance_banner.png)
+[Github](https://github.com/FLaMeREVENGE) :paw_prints: FLaMe_REVENGE
 ![GitHub Profile](github_black_2.png)
