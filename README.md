@@ -25,7 +25,9 @@ Thank you Brian Design :kissing_heart:
 * SASS
 
 ## My Portfolio
-[Behance](https://www.behance.net/karolkomor1b9a):computer: Karol Komorowski
+- [Behance](https://www.behance.net/karolkomor1b9a) :computer:
+
 ![Behance Profile](behance_banner.png)
-[Github](https://github.com/FLaMeREVENGE) :paw_prints: FLaMe_REVENGE
+- [Github](https://github.com/FLaMeREVENGE) :paw_prints:
+
 ![GitHub Profile](github_black_2.png)
