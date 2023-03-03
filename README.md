@@ -1,6 +1,4 @@
 # OBLIVION - SASS - project tutorial from Brian Design
-
-## Preview
 ![Preview project](preview_project.png)
 
 This is a static site created and inspired from a YT exercise by Brian Design. 
