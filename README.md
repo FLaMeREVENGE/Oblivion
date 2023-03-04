@@ -22,10 +22,10 @@ Thank you Brian Design :kissing_heart:
 * Bootstrap
 * SASS
 
-## My Portfolio
-- [Behance](https://www.behance.net/karolkomor1b9a) :computer:
+# My Portfolio :smiling_imp:
+### [Behance](https://www.behance.net/karolkomor1b9a) :computer:
 
 ![Behance Profile](behance_banner.png)
-- [Github](https://github.com/FLaMeREVENGE) :paw_prints:
+### [Github](https://github.com/FLaMeREVENGE) :paw_prints:
 
 ![GitHub Profile](github_black_2.png)
